@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Agrega aquí los elementos de diseño necesarios para mostrar los datos -->
+        <ImageView
+            android:id="@+id/ivHeroImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvSuperHero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvIntelligence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- Agrega más TextViews según tus necesidades -->
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>
